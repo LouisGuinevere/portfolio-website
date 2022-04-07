@@ -13,7 +13,7 @@ import "swiper/css/pagination"
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Review from cliens</h5>
+      <h5>Review from clients</h5>
       <h2>Testimonials</h2>
       <Swiper className="container container__testimonials" modules={[Pagination]} spaceBetween={40} slidesPerView={1} pagination={{clickable: true}}>
         <SwiperSlide>

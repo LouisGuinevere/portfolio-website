@@ -1,10 +1,30 @@
-import React from "react"
+import React, { useEffect, useRef, useState } from 'react';
 import AboutCard from './AboutCard'
 import ME from "../../assets/me-about.jpg"
 import "./about.css"
 
 const About = () => {
+  // const [isVisible, setIsVisible] = useState(false);
+  // const hiddenRef = useRef();
+
+  // useEffect(() => {
+  //   window.addEventListener('scroll', scrollHandler);
+  //   return () => window.removeEventListener('scroll', scrollHandler);
+  // }, [isVisible]);
+
+  // const scrollHandler = () => {
+  //   if (window.scrollY + window.innerHeight >= hiddenRef.current.offsetTop){
+  //     if (window.scrollY > hiddenRef.current.offsetTop + hiddenRef.current.offsetHeight){
+  //       setIsVisible(false);
+  //     } else {
+  //       setIsVisible(true);
+  //     }
+  //   } else {
+  //     setIsVisible(false);
+  //   }
+  // }
   return (
+      // <section id="about" ref={hiddenRef}>
       <section id="about">
         <h5>Get To Know Me</h5>
         <h2>About Me</h2>

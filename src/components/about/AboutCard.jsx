@@ -6,7 +6,7 @@ const AboutCard = (props) => {
     return (
         <article className="about__card">
             <FaAward className="about__icon" />
-            <h5>{title}</h5>
+            <h4>{title}</h4>
             <small>{content}</small>
         </article>
     )
